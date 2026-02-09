@@ -21,7 +21,7 @@ Ctrl+Alt+N - Show debug information
 Ctrl+Alt+X - Quit program
 ```
 
-(in inventory screen:)
+in inventory screen (for debug purposes):
 
 ```
 V - torch
