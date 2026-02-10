@@ -62,3 +62,5 @@ Links
 Github repository:
 https://github.com/gusnan/freedungeon
 
+Web:
+https://www.gusnan.se/freedungeon/
