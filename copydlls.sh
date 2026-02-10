@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This file is licensed under the GPL version 3, see GPL3.txt
+
 cp /mingw64/bin/allegro_primitives-5.2.dll build/
 cp /mingw64/bin/allegro-5.2.dll build/ build/
 cp /mingw64/bin/allegro_acodec-5.2.dll build/
