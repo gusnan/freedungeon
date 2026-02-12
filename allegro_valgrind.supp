@@ -1,0 +1,74 @@
+
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:_Znwm
+   fun:_ZN3Gus8EventLib11EventSystem15initEventSystemEv
+   fun:main
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:_Znwm
+   fun:_ZN3Gus8EventLib11EventSystem15initEventSystemEv
+   fun:main
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:_Znwm
+   fun:_ZNSt15__new_allocatorISt10_List_nodeISt10shared_ptrIN3Gus8EventLib9UserEventEEEE8allocateEmPKv
+   fun:allocate
+   fun:_ZNSt7__cxx1110_List_baseISt10shared_ptrIN3Gus8EventLib9UserEventEESaIS5_EE11_M_get_nodeEv
+   fun:_ZNSt7__cxx114listISt10shared_ptrIN3Gus8EventLib9UserEventEESaIS5_EE14_M_create_nodeIJRKS5_EEEPSt10_List_nodeIS5_EDpOT_
+   fun:_ZNSt7__cxx114listISt10shared_ptrIN3Gus8EventLib9UserEventEESaIS5_EE9_M_insertIJRKS5_EEEvSt14_List_iteratorIS5_EDpOT_
+   fun:_ZNSt7__cxx114listISt10shared_ptrIN3Gus8EventLib9UserEventEESaIS5_EE9push_backERKS5_
+   fun:_ZN3Gus8EventLib11EventSystem9pushEventESt10shared_ptrINS0_9UserEventEE
+   fun:_ZN12MousePointer7setItemESt10shared_ptrI4ItemE
+   fun:_ZN12MousePointerC1Ev
+   fun:_ZN12MousePointer8instanceEv
+   fun:main
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:_ZN3Gus8EventLib11EventSystem15initEventSystemEv
+   fun:main
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:_Znwm
+   fun:_ZNSt15__new_allocatorISt23_Sp_counted_ptr_inplaceIN3Gus8EventLib9UserEventESaIvELN9__gnu_cxx12_Lock_policyE2EEE8allocateEmPKv
+   fun:allocate
+   fun:_ZSt18__allocate_guardedISaISt23_Sp_counted_ptr_inplaceIN3Gus8EventLib9UserEventESaIvELN9__gnu_cxx12_Lock_policyE2EEEESt15__allocated_ptrIT_ERSA_
+   fun:_ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC1IN3Gus8EventLib9UserEventESaIvEJEEERPT_St20_Sp_alloc_shared_tagIT0_EDpOT1_
+   fun:_ZNSt12__shared_ptrIN3Gus8EventLib9UserEventELN9__gnu_cxx12_Lock_policyE2EEC1ISaIvEJEEESt20_Sp_alloc_shared_tagIT_EDpOT0_
+   fun:_ZNSt10shared_ptrIN3Gus8EventLib9UserEventEEC1ISaIvEJEEESt20_Sp_alloc_shared_tagIT_EDpOT0_
+   fun:_ZSt11make_sharedIN3Gus8EventLib9UserEventEJEESt10shared_ptrINSt9enable_ifIXntsrSt8is_arrayIT_E5valueES6_E4typeEEDpOT0_
+   fun:_ZN12MousePointer7setItemESt10shared_ptrI4ItemE
+   fun:_ZN12MousePointerC1Ev
+   fun:_ZN12MousePointer8instanceEv
+   fun:main
+}
+
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:_Znwm
+   fun:_ZN3Gus8EventLib11EventSystem15initEventSystemEv
+   fun:main
+}
