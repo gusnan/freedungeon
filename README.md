@@ -6,7 +6,9 @@ FreeDungeon
 
 Freedungeon is a game with the aim to make a free software clone of the game
 Dungeon Master, containing free assets making it easily distributable in
-Free Software distributions.
+Free Software distributions. I will only accept assets that are clearly
+licensed with a license that allows redistribution to be included in
+freedungeon - Preferably CC-BY-SA or something similar.
 
 
 
