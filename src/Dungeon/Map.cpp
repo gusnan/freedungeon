@@ -64,7 +64,7 @@ Map::Map() : m_Size(Vector2d(5, 5)), m_MapData(nullptr)
 /**
  *
  */
-Map::Map(const Map &inMap)
+Map::Map(const Map &inMap): m_Size(inMap.m_Size), m_MapData(nullptr)
 {
    LOG(" --- Map copyconstructor");
    
