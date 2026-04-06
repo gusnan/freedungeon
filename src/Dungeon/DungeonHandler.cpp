@@ -68,7 +68,13 @@ DungeonHandler &DungeonHandler::instance()
 /**
  *
  */
-DungeonHandler::DungeonHandler() : m_Position(0, 0), m_Rotate(0), m_Map(nullptr), m_Delta(0, 0), dungeonWall(nullptr)
+DungeonHandler::DungeonHandler() : m_Position(0, 0),
+                                   m_Rotate(0),
+                                   m_Map(nullptr),
+                                   m_Delta(0, 0),
+                                   m_RightDelta(0, 0),
+                                   m_LeftDelta(0, 0),
+                                   dungeonWall(nullptr)
 {
    LOG("DungeonHandler constructor");
    initDungeonHandler();
@@ -156,7 +162,7 @@ void DungeonHandler::moveBack()
       }
    } else {
       m_Position = newPos;
-      DrawDungeon::instance().increaseStepCounter();      
+      DrawDungeon::instance().increaseStepCounter();
    }
 }
 
